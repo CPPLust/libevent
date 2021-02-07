@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\core">
+      <UniqueIdentifier>{b84d1ef2-33f5-4d6a-9f22-6337b1440fc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\extras">
+      <UniqueIdentifier>{4e6e0738-ee75-4f59-8e27-57e206e149e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\win">
+      <UniqueIdentifier>{f51d293a-e3fc-4e02-993f-8d18aca9f80a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\libevent-2.1.12-stable\evdns.c">
+      <Filter>源文件\extras</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libevent-2.1.12-stable\event_tagging.c">
+      <Filter>源文件\extras</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libevent-2.1.12-stable\evrpc.c">
+      <Filter>源文件\extras</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libevent-2.1.12-stable\http.c">
+      <Filter>源文件\extras</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libevent-2.1.12-stable\buffer_iocp.c">
+      <Filter>源文件\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libevent-2.1.12-stable\bufferevent_async.c">
+      <Filter>源文件\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libevent-2.1.12-stable\event_iocp.c">
+      <Filter>源文件\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libevent-2.1.12-stable\evthread_win32.c">
+      <Filter>源文件\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libevent-2.1.12-stable\win32select.c">
+      <Filter>源文件\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libevent-2.1.12-stable\buffer.c">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libevent-2.1.12-stable\bufferevent.c">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libevent-2.1.12-stable\bufferevent_filter.c">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libevent-2.1.12-stable\bufferevent_pair.c">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libevent-2.1.12-stable\bufferevent_ratelim.c">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libevent-2.1.12-stable\bufferevent_sock.c">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libevent-2.1.12-stable\event.c">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libevent-2.1.12-stable\evmap.c">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libevent-2.1.12-stable\evthread.c">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libevent-2.1.12-stable\evutil.c">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libevent-2.1.12-stable\evutil_rand.c">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libevent-2.1.12-stable\evutil_time.c">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libevent-2.1.12-stable\listener.c">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libevent-2.1.12-stable\log.c">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libevent-2.1.12-stable\signal.c">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libevent-2.1.12-stable\strlcpy.c">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
