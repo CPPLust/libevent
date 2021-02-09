@@ -18,25 +18,31 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\libevent-2.1.12-stable\sample\https-client.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\libevent-2.1.12-stable\sample\openssl_hostname_validation.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\libevent-2.1.12-stable\sample\hostcheck.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="..\libevent-2.1.12-stable\sample\http-connect.c">
       <Filter>源文件\_excluded_files</Filter>
     </ClCompile>
+    <ClCompile Include="..\libevent-2.1.12-stable\sample\hostcheck.c">
+      <Filter>源文件\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libevent-2.1.12-stable\sample\https-client.c">
+      <Filter>源文件\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libevent-2.1.12-stable\sample\openssl_hostname_validation.c">
+      <Filter>源文件\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Demo1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\libevent-2.1.12-stable\sample\openssl_hostname_validation.h">
-      <Filter>源文件</Filter>
-    </ClInclude>
     <ClInclude Include="..\libevent-2.1.12-stable\sample\hostcheck.h">
-      <Filter>源文件</Filter>
+      <Filter>源文件\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libevent-2.1.12-stable\sample\openssl_hostname_validation.h">
+      <Filter>源文件\_excluded_files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

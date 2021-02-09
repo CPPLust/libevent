@@ -76,13 +76,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\libevent-2.1.12-stable\sample\hostcheck.c" />
+    <ClCompile Include="..\libevent-2.1.12-stable\sample\hostcheck.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="..\libevent-2.1.12-stable\sample\http-connect.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\libevent-2.1.12-stable\sample\https-client.c" />
-    <ClCompile Include="..\libevent-2.1.12-stable\sample\openssl_hostname_validation.c" />
+    <ClCompile Include="..\libevent-2.1.12-stable\sample\https-client.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\libevent-2.1.12-stable\sample\openssl_hostname_validation.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Demo1.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\libevent_core\libevent_core.vcxproj">
@@ -96,8 +106,12 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\libevent-2.1.12-stable\sample\hostcheck.h" />
-    <ClInclude Include="..\libevent-2.1.12-stable\sample\openssl_hostname_validation.h" />
+    <ClInclude Include="..\libevent-2.1.12-stable\sample\hostcheck.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\libevent-2.1.12-stable\sample\openssl_hostname_validation.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

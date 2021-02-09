@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libevent_openssl", "libeven
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "event_samples", "event_samples\event_samples.vcxproj", "{801ACDF6-2DB3-41AC-9DFA-E4AF320A8174}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "firstEvent", "firstEvent\firstEvent.vcxproj", "{0C4B0996-EA3A-4E35-BBEB-BB83A0C3D041}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -39,6 +41,10 @@ Global
 		{801ACDF6-2DB3-41AC-9DFA-E4AF320A8174}.Debug|Win32.Build.0 = Debug|Win32
 		{801ACDF6-2DB3-41AC-9DFA-E4AF320A8174}.Release|Win32.ActiveCfg = Release|Win32
 		{801ACDF6-2DB3-41AC-9DFA-E4AF320A8174}.Release|Win32.Build.0 = Release|Win32
+		{0C4B0996-EA3A-4E35-BBEB-BB83A0C3D041}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0C4B0996-EA3A-4E35-BBEB-BB83A0C3D041}.Debug|Win32.Build.0 = Debug|Win32
+		{0C4B0996-EA3A-4E35-BBEB-BB83A0C3D041}.Release|Win32.ActiveCfg = Release|Win32
+		{0C4B0996-EA3A-4E35-BBEB-BB83A0C3D041}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
